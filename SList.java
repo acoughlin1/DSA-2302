@@ -1,13 +1,8 @@
-//============ TO DO ============
-// COMPLETE THE methods in the SList class and the needed testing condition 
-// in the main method (the driver)
-// DOCUMENT and COMMENT the code appopriately.
-/////////////////////////////////////////////////////
 
 /**
  * The Node class to encapsulate the data and reference of a data structure 
  * node. This class is an independent class, so we need setters and getters 
- * @author Ken Nguyen
+ * @author Albert Coughlin
  * @version 1 - Node class is independent
  */
 class Node<T>{
@@ -152,38 +147,6 @@ public class SList<T> { //note: T is a a placeholder for a data type
 	public int getSize() {
 		return size;
 	}
-	
-	//=============================================================
-	//==== A DRIVER to test the SList class - 
-    // REMOVE THE DRIVER BEFORE RELEASE                        ====
-	//=============================================================
-	public static void main(String args[]){
-
-         //== Add code to test all functionalities of the SList class==
-         
-           //create a list of intergers
-	   SList <Integer> myList = new SList <Integer>();
-	   myList.addFirst(5); //add avalue
-	 
-	   myList.addLast(10);
-	   myList.addFirst(1);
-	   myList.addLast(2);
-	 	  
-	   System.out.println("List size: " + myList.getSize());
-	   System.out.println(myList);
-	   myList.removeFirst();
-	   	   
-	   System.out.println("List size: " + myList.getSize());
-	   System.out.println(myList);
-	   myList.removeLast();
-	   System.out.println("List size: " + myList.getSize());
-	   System.out.println(myList);
-	 
-//TO BE COMPLETED
-	   //1. add code to invoke removeFirst and removeLast from an empty list
-	   
-	}
-	//==== END of the DRIVER =============	
 }
 
 
