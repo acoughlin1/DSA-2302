@@ -42,10 +42,7 @@ class Node<T>{
 
 }
 
-/** ========== COMPLETE THE FOLLOWING CLASS==========
- * An INCOMPLETE template for a generic type singly linked list class - 
- * You should complete this class and create a driver to test it
- */
+
 public class SList<T> { //note: T is a a placeholder for a data type 
 	//attributes
 	private Node<T> head;
